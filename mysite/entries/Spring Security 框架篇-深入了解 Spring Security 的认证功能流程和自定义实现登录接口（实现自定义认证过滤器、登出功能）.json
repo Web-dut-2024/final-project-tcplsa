@@ -1,0 +1,14 @@
+{
+    "title": "Spring Security 框架篇-深入了解 Spring Security 的认证功能流程和自定义实现登录接口（实现自定义认证过滤器、登出功能）",
+    "url": "https://blog.csdn.net/Tingfeng__/article/details/143406535",
+    "pic": "https://i-blog.csdnimg.cn/direct/7a27c108ca8e4191bb20f374ff232373.jpeg",
+    "tags": [
+        "spring",
+        "java",
+        "mysql",
+        "spring boot",
+        "后端",
+        "数据库",
+        "架构"
+    ]
+}

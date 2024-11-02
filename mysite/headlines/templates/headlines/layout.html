@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="{% static 'headlines/css/styles.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="{% url 'home' %}" class="nav-link" id="homeLink">回到首页</a>
+                <a href="{% url 'CSDN' %}" class="nav-link" id="csdnLink">CSDN分区</a>
+                <a href="{% url 'GIT' %}" class="nav-link" id="gitLink">Git分区</a>
+                <a href="{% url 'random_page' %}" target="_blank" class="nav-link" >随机跳转</a>
+                <form class="search-container" action="{% url 'search' %}" method="get">
+                    <input type="text" name="q" id="searchBar" class="search-input" placeholder="搜索...">
+                    <button class="search-button" type="submit">搜索</button>
+                </form>
+            </nav>
+        </header>
+        <main>
+            <div class="main">
+                {% block body %}
+                {% endblock %}
+            </div>
+        </main>
+        
+        <button id="backToTop" title="backToTop" onclick="backToTop()"><svg fill="currentColor" style="margin-bottom:5px;" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M973.013 563.968c-13.61 0-25.514-5.12-35.712-15.36L512.043 122.709 86.784 548.693c-20.395 20.438-52.736 20.438-71.424 0-20.437-20.48-20.437-52.821 0-71.594L476.33 15.36c20.395-20.437 52.737-20.437 71.425 0l460.97 461.739c20.438 20.48 20.438 52.821 0 71.594-10.197 10.24-23.808 15.318-35.712 15.318z"></path><path d="M512.043 1024c-28.928 0-51.03-22.187-51.03-51.115V51.115C461.013 22.144 483.115 0 512.043 0s51.029 22.187 51.029 51.115v921.77a51.2 51.2 0 0 1-51.03 51.115z"></path></svg></button>
+        
+        <script src="{% static 'headlines/js/script.js' %}"></script>
+    </body>
+</html>

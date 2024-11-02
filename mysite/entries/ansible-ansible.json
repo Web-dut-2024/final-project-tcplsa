@@ -1,0 +1,9 @@
+{
+    "title": "ansible/ansible",
+    "url": "https://github.com/ansible/ansible",
+    "tags": [
+        "Python"
+    ],
+    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+    "pic": "https://pic4.zhimg.com/v2-341e1d3b2845db15bceeff70d3fe228b_r.jpg"
+}

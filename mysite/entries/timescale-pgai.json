@@ -1,0 +1,9 @@
+{
+    "title": "timescale/pgai",
+    "url": "https://github.com/timescale/pgai",
+    "tags": [
+        "Python"
+    ],
+    "description": "A suite of tools to develop RAG, semantic search, and other AI applications more easily with PostgreSQL",
+    "pic": "https://pic4.zhimg.com/v2-341e1d3b2845db15bceeff70d3fe228b_r.jpg"
+}

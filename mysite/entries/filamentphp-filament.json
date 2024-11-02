@@ -1,0 +1,9 @@
+{
+    "title": "filamentphp/filament",
+    "url": "https://github.com/filamentphp/filament",
+    "tags": [
+        "PHP"
+    ],
+    "description": "A collection of beautiful full-stack components for Laravel. The perfect starting point for your next app. Using Livewire, Alpine.js and Tailwind CSS.",
+    "pic": "https://pic4.zhimg.com/v2-341e1d3b2845db15bceeff70d3fe228b_r.jpg"
+}

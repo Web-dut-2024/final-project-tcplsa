@@ -1,0 +1,10 @@
+{
+    "title": "基于SpringBoot和PostGIS的世界各国邻国可视化实践",
+    "url": "https://blog.csdn.net/yelangkingwuzuhu/article/details/143439113",
+    "pic": "https://i-blog.csdnimg.cn/direct/f3faa5357f92412aa063df4c63d842f4.png",
+    "tags": [
+        "邻国WebGIS",
+        "Leaflet进行邻国检索",
+        "PostGIS邻国检索"
+    ]
+}

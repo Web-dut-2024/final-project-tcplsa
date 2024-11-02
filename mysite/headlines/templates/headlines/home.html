@@ -1,0 +1,32 @@
+{% extends "headlines/layout.html" %}
+
+{% block title %}
+    首页
+{% endblock %}
+
+{% block body %}
+    <span class="trigger" style="display: inline-block;"></span>
+    <ul>
+        {% for entry in entries %}
+        <li class="entry-item">
+            <a href="{{entry.url}}" target="_blank" class="entry-link">
+                <div class="entry-image" style="background-image: url('{{entry.pic}}');"></div>
+                {{entry.title}}
+                <span class="entry-description">
+                    {{entry.description}}
+                </span>
+                <div class="entry-tags">
+                    
+                    {% for tag in entry.tags %} <!-- 迭代 entry.tag 数组 -->
+                        <span class="tag">{{tag}}</span>
+                    {% endfor %}
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+
+{% endblock %}
+
+

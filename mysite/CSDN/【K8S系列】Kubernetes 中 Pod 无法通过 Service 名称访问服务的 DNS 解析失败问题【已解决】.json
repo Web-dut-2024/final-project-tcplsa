@@ -1,0 +1,11 @@
+{
+    "title": "【K8S系列】Kubernetes 中 Pod 无法通过 Service 名称访问服务的 DNS 解析失败问题【已解决】",
+    "url": "https://blog.csdn.net/weixin_36755535/article/details/143369618",
+    "pic": "https://i-blog.csdnimg.cn/direct/b31064a3d8b04318ae9a48993574690b.png",
+    "tags": [
+        "后端",
+        "kubernetes",
+        "云原生",
+        "容器"
+    ]
+}

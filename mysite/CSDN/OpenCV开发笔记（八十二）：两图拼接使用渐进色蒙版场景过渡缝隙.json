@@ -1,0 +1,12 @@
+{
+    "title": "OpenCV开发笔记（八十二）：两图拼接使用渐进色蒙版场景过渡缝隙",
+    "url": "https://blog.csdn.net/qq21497936/article/details/143432922",
+    "pic": "https://i-blog.csdnimg.cn/direct/f0c5b494ec5f44849e0bcf0b432d9f75.png",
+    "tags": [
+        "OpenCV",
+        "Qt",
+        "缝隙拼接",
+        "渐近过渡",
+        "图像蒙版融合"
+    ]
+}
